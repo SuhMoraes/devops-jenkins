@@ -5,9 +5,9 @@
       container_name: pg-tasks
       image: postgres:14.8
       ports:
-        - 5455:5432
+        - 5433:5432
       environment: 
-        - POSTGRES_DB=TASKS 
+        - POSTGRES_DB=tasks
         - POSTGRES_PASSWORD=password
 
 
