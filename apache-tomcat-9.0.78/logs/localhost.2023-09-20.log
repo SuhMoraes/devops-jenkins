@@ -1,0 +1,41 @@
+20-Sep-2023 00:19:32.846 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+20-Sep-2023 00:19:37.259 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+20-Sep-2023 00:19:44.362 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-Sep-2023 00:19:44.363 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-Sep-2023 00:19:44.367 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7bbf17d')
+20-Sep-2023 00:21:12.222 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+20-Sep-2023 00:21:15.877 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+20-Sep-2023 00:21:23.397 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-Sep-2023 00:21:23.397 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-Sep-2023 00:21:23.399 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@594c66ea')
+20-Sep-2023 09:39:00.194 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+20-Sep-2023 09:39:05.879 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+20-Sep-2023 09:39:17.952 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-Sep-2023 09:39:17.952 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-Sep-2023 09:39:17.955 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2a8953aa')
+20-Sep-2023 09:55:33.446 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-Sep-2023 09:55:33.447 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-Sep-2023 09:55:33.450 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1e8823d2')
+20-Sep-2023 10:04:20.245 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-Sep-2023 10:04:20.245 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-Sep-2023 10:04:20.248 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1af1347d')
+20-Sep-2023 10:12:28.698 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-Sep-2023 10:12:28.698 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-Sep-2023 10:12:28.702 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1e8823d2')
+20-Sep-2023 10:14:40.523 INFORMAÇÕES [http-nio-8001-exec-11] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+20-Sep-2023 10:14:44.066 INFORMAÇÕES [http-nio-8001-exec-11] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+20-Sep-2023 10:29:11.825 INFORMAÇÕES [http-nio-8001-exec-13] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+20-Sep-2023 10:29:14.903 INFORMAÇÕES [http-nio-8001-exec-13] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+20-Sep-2023 10:29:37.934 INFORMAÇÕES [http-nio-8001-exec-17] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+20-Sep-2023 10:29:40.989 INFORMAÇÕES [http-nio-8001-exec-17] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+20-Sep-2023 10:30:40.982 INFORMAÇÕES [http-nio-8001-exec-23] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+20-Sep-2023 10:30:44.462 INFORMAÇÕES [http-nio-8001-exec-23] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+20-Sep-2023 10:30:55.570 INFORMAÇÕES [http-nio-8001-exec-24] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+20-Sep-2023 10:30:59.246 INFORMAÇÕES [http-nio-8001-exec-24] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+20-Sep-2023 10:31:50.312 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+20-Sep-2023 10:31:54.459 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+20-Sep-2023 10:32:03.209 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-Sep-2023 10:32:03.209 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-Sep-2023 10:32:03.212 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4a99f9e5')
+20-Sep-2023 10:32:20.005 INFORMAÇÕES [http-nio-8001-exec-3] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+20-Sep-2023 10:32:23.130 INFORMAÇÕES [http-nio-8001-exec-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext

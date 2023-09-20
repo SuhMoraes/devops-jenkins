@@ -1,0 +1,1051 @@
+20-Sep-2023 00:19:26.784 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+20-Sep-2023 00:19:26.790 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+20-Sep-2023 00:19:26.791 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+20-Sep-2023 00:19:26.791 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Sep-2023 00:19:26.791 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 00:19:26.792 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 00:19:26.792 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\WINDOWS HOME\.jdks\corretto-11.0.19
+20-Sep-2023 00:19:26.792 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-LTS
+20-Sep-2023 00:19:26.792 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+20-Sep-2023 00:19:26.793 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 00:19:26.793 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 00:19:26.816 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 00:19:26.816 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 00:19:26.817 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 00:19:26.818 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 00:19:26.819 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 00:19:26.819 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\conf\logging.properties
+20-Sep-2023 00:19:26.820 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 00:19:26.821 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 00:19:26.822 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 00:19:26.822 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 00:19:26.823 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 00:19:26.824 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 00:19:26.824 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\temp
+20-Sep-2023 00:19:26.836 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+20-Sep-2023 00:19:26.837 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 00:19:26.838 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 00:19:26.869 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+20-Sep-2023 00:19:27.337 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 00:19:27.367 GRAVE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8001]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1040)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:459)
+		at java.base/sun.nio.ch.Net.bind(Net.java:448)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1324)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1337)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:652)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+20-Sep-2023 00:19:27.370 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1067] milliseconds
+20-Sep-2023 00:19:27.480 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 00:19:27.481 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+20-Sep-2023 00:19:27.513 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war]
+20-Sep-2023 00:19:32.675 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 00:19:43.322 GRAVE [main] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tasks-backend]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:152)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:132)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:92)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:172)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4936)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+	Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:403)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+		... 57 more
+	Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:112)
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+		at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:69)
+		at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.jdbcStatement(GenerationTargetToDatabase.java:77)
+		at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:53)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:241)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+		at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:320)
+		at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1237)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+		... 61 more
+	Caused by: org.postgresql.util.PSQLException: Connection to 127.0.0.1:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:211)
+		at org.postgresql.Driver.makeConnection(Driver.java:458)
+		at org.postgresql.Driver.connect(Driver.java:260)
+		at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+		at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+		at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+		at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+		at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+		at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+		at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+		at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+		at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:43)
+		... 77 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+		at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+		at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+		at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+		at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.base/java.net.Socket.connect(Socket.java:609)
+		at org.postgresql.core.PGStream.<init>(PGStream.java:75)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+		... 91 more
+20-Sep-2023 00:19:43.339 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war] has finished in [15.819] ms
+20-Sep-2023 00:19:43.340 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs]
+20-Sep-2023 00:19:43.790 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [396] milliseconds.
+20-Sep-2023 00:19:43.810 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs] has finished in [469] ms
+20-Sep-2023 00:19:43.810 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples]
+20-Sep-2023 00:19:44.397 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples] has finished in [586] ms
+20-Sep-2023 00:19:44.399 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager]
+20-Sep-2023 00:19:44.465 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager] has finished in [67] ms
+20-Sep-2023 00:19:44.466 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager]
+20-Sep-2023 00:19:44.532 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager] has finished in [66] ms
+20-Sep-2023 00:19:44.533 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT]
+20-Sep-2023 00:19:44.583 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT] has finished in [50] ms
+20-Sep-2023 00:19:44.594 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [17224] milliseconds
+20-Sep-2023 00:20:45.413 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+20-Sep-2023 00:20:45.426 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+20-Sep-2023 00:20:45.427 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+20-Sep-2023 00:20:45.431 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Sep-2023 00:20:45.431 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 00:20:45.432 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 00:20:45.432 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\WINDOWS HOME\.jdks\corretto-11.0.19
+20-Sep-2023 00:20:45.433 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-LTS
+20-Sep-2023 00:20:45.433 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+20-Sep-2023 00:20:45.434 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 00:20:45.435 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 00:20:45.463 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 00:20:45.464 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 00:20:45.465 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 00:20:45.465 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 00:20:45.466 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 00:20:45.467 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\conf\logging.properties
+20-Sep-2023 00:20:45.469 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 00:20:45.470 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 00:20:45.472 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 00:20:45.473 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 00:20:45.474 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 00:20:45.475 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 00:20:45.475 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\temp
+20-Sep-2023 00:20:45.482 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+20-Sep-2023 00:20:45.483 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 00:20:45.484 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 00:20:45.500 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+20-Sep-2023 00:20:49.828 GRAVE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+20-Sep-2023 00:20:55.236 GRAVE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+20-Sep-2023 00:21:07.738 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+20-Sep-2023 00:21:07.742 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+20-Sep-2023 00:21:07.743 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+20-Sep-2023 00:21:07.743 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Sep-2023 00:21:07.743 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 00:21:07.744 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 00:21:07.744 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\WINDOWS HOME\.jdks\corretto-11.0.19
+20-Sep-2023 00:21:07.744 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-LTS
+20-Sep-2023 00:21:07.744 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+20-Sep-2023 00:21:07.744 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 00:21:07.745 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 00:21:07.761 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 00:21:07.761 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 00:21:07.762 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 00:21:07.763 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 00:21:07.766 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 00:21:07.767 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\conf\logging.properties
+20-Sep-2023 00:21:07.767 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 00:21:07.768 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 00:21:07.768 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 00:21:07.769 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 00:21:07.769 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 00:21:07.770 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 00:21:07.770 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\temp
+20-Sep-2023 00:21:07.775 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+20-Sep-2023 00:21:07.775 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 00:21:07.776 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 00:21:07.782 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+20-Sep-2023 00:21:08.183 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 00:21:08.231 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [801] milliseconds
+20-Sep-2023 00:21:08.343 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 00:21:08.343 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+20-Sep-2023 00:21:08.376 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war]
+20-Sep-2023 00:21:11.923 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 00:21:22.370 GRAVE [main] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tasks-backend]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:152)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:132)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:92)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:172)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4936)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+	Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:403)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+		... 57 more
+	Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:112)
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+		at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:69)
+		at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.jdbcStatement(GenerationTargetToDatabase.java:77)
+		at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:53)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:241)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+		at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:320)
+		at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1237)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+		... 61 more
+	Caused by: org.postgresql.util.PSQLException: Connection to 127.0.0.1:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:211)
+		at org.postgresql.Driver.makeConnection(Driver.java:458)
+		at org.postgresql.Driver.connect(Driver.java:260)
+		at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+		at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+		at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+		at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+		at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+		at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+		at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+		at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+		at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:43)
+		... 77 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+		at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+		at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+		at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+		at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.base/java.net.Socket.connect(Socket.java:609)
+		at org.postgresql.core.PGStream.<init>(PGStream.java:75)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+		... 91 more
+20-Sep-2023 00:21:22.385 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war] has finished in [14.009] ms
+20-Sep-2023 00:21:22.387 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs]
+20-Sep-2023 00:21:22.905 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [472] milliseconds.
+20-Sep-2023 00:21:22.922 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs] has finished in [535] ms
+20-Sep-2023 00:21:22.923 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples]
+20-Sep-2023 00:21:23.417 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples] has finished in [494] ms
+20-Sep-2023 00:21:23.418 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager]
+20-Sep-2023 00:21:23.518 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager] has finished in [100] ms
+20-Sep-2023 00:21:23.519 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager]
+20-Sep-2023 00:21:23.580 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager] has finished in [61] ms
+20-Sep-2023 00:21:23.582 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT]
+20-Sep-2023 00:21:23.631 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT] has finished in [50] ms
+20-Sep-2023 00:21:23.639 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 00:21:23.701 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [15470] milliseconds
+20-Sep-2023 09:38:53.320 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+20-Sep-2023 09:38:53.329 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+20-Sep-2023 09:38:53.332 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+20-Sep-2023 09:38:53.332 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Sep-2023 09:38:53.333 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 09:38:53.333 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 09:38:53.334 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\WINDOWS HOME\.jdks\corretto-11.0.19
+20-Sep-2023 09:38:53.334 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-LTS
+20-Sep-2023 09:38:53.335 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+20-Sep-2023 09:38:53.335 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 09:38:53.335 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 09:38:53.369 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 09:38:53.369 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 09:38:53.385 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 09:38:53.386 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 09:38:53.388 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 09:38:53.388 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\conf\logging.properties
+20-Sep-2023 09:38:53.389 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 09:38:53.390 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 09:38:53.391 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 09:38:53.391 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 09:38:53.392 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 09:38:53.393 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 09:38:53.394 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\temp
+20-Sep-2023 09:38:53.408 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+20-Sep-2023 09:38:53.409 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 09:38:53.411 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 09:38:53.438 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+20-Sep-2023 09:38:54.086 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 09:38:54.184 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1313] milliseconds
+20-Sep-2023 09:38:54.354 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 09:38:54.356 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+20-Sep-2023 09:38:54.415 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war]
+20-Sep-2023 09:38:59.913 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 09:39:15.245 GRAVE [main] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tasks-backend]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:152)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:132)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:92)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:172)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4936)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+	Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:403)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+		... 57 more
+	Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:112)
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+		at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:69)
+		at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.jdbcStatement(GenerationTargetToDatabase.java:77)
+		at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:53)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:241)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+		at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:320)
+		at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1237)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+		... 61 more
+	Caused by: org.postgresql.util.PSQLException: Connection to 127.0.0.1:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:211)
+		at org.postgresql.Driver.makeConnection(Driver.java:458)
+		at org.postgresql.Driver.connect(Driver.java:260)
+		at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+		at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+		at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+		at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+		at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+		at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+		at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+		at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+		at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:43)
+		... 77 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+		at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+		at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+		at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+		at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.base/java.net.Socket.connect(Socket.java:609)
+		at org.postgresql.core.PGStream.<init>(PGStream.java:75)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+		... 91 more
+20-Sep-2023 09:39:15.255 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war] has finished in [20.839] ms
+20-Sep-2023 09:39:15.262 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs]
+20-Sep-2023 09:39:16.793 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1.411] milliseconds.
+20-Sep-2023 09:39:16.830 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs] has finished in [1.568] ms
+20-Sep-2023 09:39:16.831 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples]
+20-Sep-2023 09:39:17.987 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples] has finished in [1.156] ms
+20-Sep-2023 09:39:17.988 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager]
+20-Sep-2023 09:39:18.081 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager] has finished in [93] ms
+20-Sep-2023 09:39:18.086 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager]
+20-Sep-2023 09:39:18.200 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager] has finished in [114] ms
+20-Sep-2023 09:39:18.217 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT]
+20-Sep-2023 09:39:18.287 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT] has finished in [70] ms
+20-Sep-2023 09:39:18.307 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 09:39:18.390 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [24205] milliseconds
+20-Sep-2023 09:49:47.479 INFORMAÇÕES [http-nio-8001-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\dsvendas-0.0.1-SNAPSHOT.war]
+20-Sep-2023 09:49:48.083 INFORMAÇÕES [http-nio-8001-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\dsvendas-0.0.1-SNAPSHOT.war] has finished in [604] ms
+20-Sep-2023 09:50:00.278 ADVERTÊNCIA [http-nio-8001-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Sep-2023 09:50:00.286 GRAVE [http-nio-8001-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [tasks-backend] created a ThreadLocal with key of type [org.springframework.boot.SpringBootExceptionHandler.LoggedExceptionHandlerThreadLocal] (value [org.springframework.boot.SpringBootExceptionHandler$LoggedExceptionHandlerThreadLocal@7181b964]) and a value of type [org.springframework.boot.SpringBootExceptionHandler] (value [org.springframework.boot.SpringBootExceptionHandler@75b010db]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Sep-2023 09:50:00.964 INFORMAÇÕES [http-nio-8001-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks-backend]
+20-Sep-2023 09:55:29.021 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+20-Sep-2023 09:55:29.027 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+20-Sep-2023 09:55:29.028 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+20-Sep-2023 09:55:29.028 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Sep-2023 09:55:29.029 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 09:55:29.029 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 09:55:29.029 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\WINDOWS HOME\.jdks\corretto-11.0.19
+20-Sep-2023 09:55:29.030 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-LTS
+20-Sep-2023 09:55:29.030 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+20-Sep-2023 09:55:29.030 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 09:55:29.031 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 09:55:29.053 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 09:55:29.053 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 09:55:29.053 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 09:55:29.054 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 09:55:29.054 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 09:55:29.055 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\conf\logging.properties
+20-Sep-2023 09:55:29.056 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 09:55:29.058 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 09:55:29.059 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 09:55:29.060 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 09:55:29.061 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 09:55:29.061 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 09:55:29.062 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\temp
+20-Sep-2023 09:55:29.116 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+20-Sep-2023 09:55:29.117 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 09:55:29.118 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 09:55:29.123 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+20-Sep-2023 09:55:29.685 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 09:55:29.769 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1145] milliseconds
+20-Sep-2023 09:55:29.945 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 09:55:29.968 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+20-Sep-2023 09:55:30.024 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\dsvendas-0.0.1-SNAPSHOT.war]
+20-Sep-2023 09:55:31.267 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [673] milliseconds.
+20-Sep-2023 09:55:31.298 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\dsvendas-0.0.1-SNAPSHOT.war] has finished in [1.275] ms
+20-Sep-2023 09:55:31.299 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs]
+20-Sep-2023 09:55:31.370 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs] has finished in [71] ms
+20-Sep-2023 09:55:31.371 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples]
+20-Sep-2023 09:55:33.471 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples] has finished in [2.100] ms
+20-Sep-2023 09:55:33.472 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager]
+20-Sep-2023 09:55:33.561 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager] has finished in [89] ms
+20-Sep-2023 09:55:33.562 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager]
+20-Sep-2023 09:55:33.635 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager] has finished in [73] ms
+20-Sep-2023 09:55:33.636 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT]
+20-Sep-2023 09:55:33.683 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT] has finished in [48] ms
+20-Sep-2023 09:55:33.692 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 09:55:34.179 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [4409] milliseconds
+20-Sep-2023 10:04:17.810 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+20-Sep-2023 10:04:17.815 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+20-Sep-2023 10:04:17.816 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+20-Sep-2023 10:04:17.816 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Sep-2023 10:04:17.817 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 10:04:17.817 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 10:04:17.817 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\WINDOWS HOME\.jdks\corretto-11.0.19
+20-Sep-2023 10:04:17.817 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-LTS
+20-Sep-2023 10:04:17.818 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+20-Sep-2023 10:04:17.818 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:04:17.818 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:04:17.840 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 10:04:17.840 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 10:04:17.841 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 10:04:17.841 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 10:04:17.842 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 10:04:17.843 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\conf\logging.properties
+20-Sep-2023 10:04:17.843 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 10:04:17.844 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 10:04:17.845 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 10:04:17.845 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 10:04:17.846 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:04:17.846 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:04:17.847 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\temp
+20-Sep-2023 10:04:17.853 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+20-Sep-2023 10:04:17.856 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 10:04:17.856 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 10:04:17.866 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+20-Sep-2023 10:04:18.463 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 10:04:18.516 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1165] milliseconds
+20-Sep-2023 10:04:18.642 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 10:04:18.643 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+20-Sep-2023 10:04:18.688 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\dsvendas-0.0.1-SNAPSHOT.war]
+20-Sep-2023 10:04:19.682 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [380] milliseconds.
+20-Sep-2023 10:04:19.703 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\dsvendas-0.0.1-SNAPSHOT.war] has finished in [1.015] ms
+20-Sep-2023 10:04:19.705 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs]
+20-Sep-2023 10:04:19.748 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs] has finished in [43] ms
+20-Sep-2023 10:04:19.748 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples]
+20-Sep-2023 10:04:20.261 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples] has finished in [513] ms
+20-Sep-2023 10:04:20.262 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager]
+20-Sep-2023 10:04:20.317 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager] has finished in [54] ms
+20-Sep-2023 10:04:20.318 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager]
+20-Sep-2023 10:04:20.361 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager] has finished in [44] ms
+20-Sep-2023 10:04:20.362 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT]
+20-Sep-2023 10:04:20.399 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT] has finished in [37] ms
+20-Sep-2023 10:04:20.408 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 10:04:20.843 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [2325] milliseconds
+20-Sep-2023 10:12:26.585 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+20-Sep-2023 10:12:26.589 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+20-Sep-2023 10:12:26.590 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+20-Sep-2023 10:12:26.590 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Sep-2023 10:12:26.591 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 10:12:26.591 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 10:12:26.591 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\WINDOWS HOME\.jdks\corretto-11.0.19
+20-Sep-2023 10:12:26.591 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-LTS
+20-Sep-2023 10:12:26.591 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+20-Sep-2023 10:12:26.592 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:12:26.592 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:12:26.609 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 10:12:26.609 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 10:12:26.609 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 10:12:26.610 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 10:12:26.610 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 10:12:26.611 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\conf\logging.properties
+20-Sep-2023 10:12:26.611 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 10:12:26.612 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 10:12:26.613 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 10:12:26.613 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 10:12:26.614 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:12:26.614 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:12:26.615 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\temp
+20-Sep-2023 10:12:26.620 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+20-Sep-2023 10:12:26.621 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 10:12:26.621 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 10:12:26.628 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+20-Sep-2023 10:12:27.076 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 10:12:27.110 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [799] milliseconds
+20-Sep-2023 10:12:27.222 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 10:12:27.223 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+20-Sep-2023 10:12:27.254 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\dsvendas-0.0.1-SNAPSHOT.war]
+20-Sep-2023 10:12:28.233 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [502] milliseconds.
+20-Sep-2023 10:12:28.255 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\dsvendas-0.0.1-SNAPSHOT.war] has finished in [1.001] ms
+20-Sep-2023 10:12:28.257 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs]
+20-Sep-2023 10:12:28.302 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs] has finished in [45] ms
+20-Sep-2023 10:12:28.302 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples]
+20-Sep-2023 10:12:28.714 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples] has finished in [412] ms
+20-Sep-2023 10:12:28.715 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager]
+20-Sep-2023 10:12:28.760 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager] has finished in [45] ms
+20-Sep-2023 10:12:28.761 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager]
+20-Sep-2023 10:12:28.796 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager] has finished in [35] ms
+20-Sep-2023 10:12:28.796 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT]
+20-Sep-2023 10:12:28.823 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT] has finished in [27] ms
+20-Sep-2023 10:12:28.833 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 10:12:29.222 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [2111] milliseconds
+20-Sep-2023 10:13:06.801 INFORMAÇÕES [http-nio-8001-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/dsvendas-0.0.1-SNAPSHOT]
+20-Sep-2023 10:14:32.720 INFORMAÇÕES [http-nio-8001-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war]
+20-Sep-2023 10:14:40.368 INFORMAÇÕES [http-nio-8001-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 10:14:50.054 GRAVE [http-nio-8001-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:543)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1689)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1615)
+		at org.apache.catalina.manager.HTMLManagerServlet.upload(HTMLManagerServlet.java:291)
+		at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:209)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:190)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tasks-backend]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 47 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:152)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:132)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:92)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:172)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4936)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 48 more
+	Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:403)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+		... 67 more
+	Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:112)
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+		at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:69)
+		at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.jdbcStatement(GenerationTargetToDatabase.java:77)
+		at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:53)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:241)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+		at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:320)
+		at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1237)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+		... 71 more
+	Caused by: org.postgresql.util.PSQLException: Connection to 127.0.0.1:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:211)
+		at org.postgresql.Driver.makeConnection(Driver.java:458)
+		at org.postgresql.Driver.connect(Driver.java:260)
+		at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+		at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+		at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+		at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+		at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+		at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+		at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+		at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+		at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:43)
+		... 87 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+		at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+		at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+		at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+		at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.base/java.net.Socket.connect(Socket.java:609)
+		at org.postgresql.core.PGStream.<init>(PGStream.java:75)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+		... 101 more
+20-Sep-2023 10:14:50.065 INFORMAÇÕES [http-nio-8001-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war] has finished in [17.344] ms
+20-Sep-2023 10:29:08.894 ADVERTÊNCIA [http-nio-8001-exec-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Sep-2023 10:29:11.726 INFORMAÇÕES [http-nio-8001-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 10:29:35.440 ADVERTÊNCIA [http-nio-8001-exec-17] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Sep-2023 10:29:37.818 INFORMAÇÕES [http-nio-8001-exec-17] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 10:30:35.681 ADVERTÊNCIA [http-nio-8001-exec-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Sep-2023 10:30:40.877 INFORMAÇÕES [http-nio-8001-exec-23] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 10:30:52.577 ADVERTÊNCIA [http-nio-8001-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Sep-2023 10:30:55.403 INFORMAÇÕES [http-nio-8001-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 10:31:44.080 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+20-Sep-2023 10:31:44.084 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+20-Sep-2023 10:31:44.089 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+20-Sep-2023 10:31:44.089 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Sep-2023 10:31:44.089 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 10:31:44.089 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 10:31:44.090 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\WINDOWS HOME\.jdks\corretto-11.0.19
+20-Sep-2023 10:31:44.090 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-LTS
+20-Sep-2023 10:31:44.090 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+20-Sep-2023 10:31:44.091 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:31:44.091 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:31:44.111 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 10:31:44.112 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 10:31:44.112 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 10:31:44.113 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 10:31:44.114 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 10:31:44.114 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\conf\logging.properties
+20-Sep-2023 10:31:44.115 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 10:31:44.116 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 10:31:44.116 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 10:31:44.117 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 10:31:44.117 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:31:44.118 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:31:44.118 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\temp
+20-Sep-2023 10:31:44.126 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+20-Sep-2023 10:31:44.128 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 10:31:44.129 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 10:31:44.134 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+20-Sep-2023 10:31:44.677 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 10:31:44.722 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1033] milliseconds
+20-Sep-2023 10:31:44.863 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 10:31:44.863 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+20-Sep-2023 10:31:44.911 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war]
+20-Sep-2023 10:31:50.108 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 10:32:01.412 GRAVE [main] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tasks-backend]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:152)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:132)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:92)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:172)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4936)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+	Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:403)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+		... 57 more
+	Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+		at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:112)
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+		at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:69)
+		at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.jdbcStatement(GenerationTargetToDatabase.java:77)
+		at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:53)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:241)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+		at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+		at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:320)
+		at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1237)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+		... 61 more
+	Caused by: org.postgresql.util.PSQLException: Connection to 127.0.0.1:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:211)
+		at org.postgresql.Driver.makeConnection(Driver.java:458)
+		at org.postgresql.Driver.connect(Driver.java:260)
+		at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+		at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+		at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+		at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+		at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+		at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+		at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+		at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+		at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:43)
+		... 77 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+		at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+		at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+		at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+		at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.base/java.net.Socket.connect(Socket.java:609)
+		at org.postgresql.core.PGStream.<init>(PGStream.java:75)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+		... 91 more
+20-Sep-2023 10:32:01.420 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war] has finished in [16.508] ms
+20-Sep-2023 10:32:01.420 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs]
+20-Sep-2023 10:32:02.551 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1.077] milliseconds.
+20-Sep-2023 10:32:02.587 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs] has finished in [1.167] ms
+20-Sep-2023 10:32:02.589 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples]
+20-Sep-2023 10:32:03.232 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples] has finished in [643] ms
+20-Sep-2023 10:32:03.233 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager]
+20-Sep-2023 10:32:03.323 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager] has finished in [90] ms
+20-Sep-2023 10:32:03.324 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager]
+20-Sep-2023 10:32:03.376 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager] has finished in [51] ms
+20-Sep-2023 10:32:03.378 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT]
+20-Sep-2023 10:32:03.420 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT] has finished in [42] ms
+20-Sep-2023 10:32:03.427 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 10:32:03.485 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [18762] milliseconds
+20-Sep-2023 10:32:17.489 ADVERTÊNCIA [http-nio-8001-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Sep-2023 10:32:17.492 GRAVE [http-nio-8001-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [tasks-backend] created a ThreadLocal with key of type [org.springframework.boot.SpringBootExceptionHandler.LoggedExceptionHandlerThreadLocal] (value [org.springframework.boot.SpringBootExceptionHandler$LoggedExceptionHandlerThreadLocal@1be2e73e]) and a value of type [org.springframework.boot.SpringBootExceptionHandler] (value [org.springframework.boot.SpringBootExceptionHandler@15a84091]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+20-Sep-2023 10:32:19.891 INFORMAÇÕES [http-nio-8001-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
