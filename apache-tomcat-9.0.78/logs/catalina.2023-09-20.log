@@ -1049,3 +1049,337 @@
 20-Sep-2023 10:32:17.489 ADVERTÊNCIA [http-nio-8001-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
 20-Sep-2023 10:32:17.492 GRAVE [http-nio-8001-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [tasks-backend] created a ThreadLocal with key of type [org.springframework.boot.SpringBootExceptionHandler.LoggedExceptionHandlerThreadLocal] (value [org.springframework.boot.SpringBootExceptionHandler$LoggedExceptionHandlerThreadLocal@1be2e73e]) and a value of type [org.springframework.boot.SpringBootExceptionHandler] (value [org.springframework.boot.SpringBootExceptionHandler@15a84091]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
 20-Sep-2023 10:32:19.891 INFORMAÇÕES [http-nio-8001-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 10:40:03.693 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+20-Sep-2023 10:40:03.697 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+20-Sep-2023 10:40:03.698 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+20-Sep-2023 10:40:03.698 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Sep-2023 10:40:03.698 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 10:40:03.698 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 10:40:03.699 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\WINDOWS HOME\.jdks\corretto-11.0.19
+20-Sep-2023 10:40:03.699 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-LTS
+20-Sep-2023 10:40:03.699 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+20-Sep-2023 10:40:03.699 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:40:03.699 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:40:03.715 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 10:40:03.715 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 10:40:03.716 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 10:40:03.716 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 10:40:03.717 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 10:40:03.717 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\conf\logging.properties
+20-Sep-2023 10:40:03.718 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 10:40:03.718 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 10:40:03.719 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 10:40:03.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 10:40:03.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:40:03.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 10:40:03.721 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\temp
+20-Sep-2023 10:40:03.727 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+20-Sep-2023 10:40:03.728 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 10:40:03.728 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 10:40:03.735 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+20-Sep-2023 10:40:04.181 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 10:40:04.215 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [875] milliseconds
+20-Sep-2023 10:40:04.319 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 10:40:04.319 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+20-Sep-2023 10:40:04.346 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war]
+20-Sep-2023 10:40:08.009 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 10:40:23.095 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [447] milliseconds.
+20-Sep-2023 10:40:23.124 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war] has finished in [18.777] ms
+20-Sep-2023 10:40:23.125 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs]
+20-Sep-2023 10:40:23.173 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs] has finished in [47] ms
+20-Sep-2023 10:40:23.173 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples]
+20-Sep-2023 10:40:23.874 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples] has finished in [701] ms
+20-Sep-2023 10:40:23.875 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager]
+20-Sep-2023 10:40:23.959 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager] has finished in [82] ms
+20-Sep-2023 10:40:23.961 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager]
+20-Sep-2023 10:40:24.046 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager] has finished in [84] ms
+20-Sep-2023 10:40:24.048 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT]
+20-Sep-2023 10:40:24.113 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT] has finished in [66] ms
+20-Sep-2023 10:40:24.118 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 10:40:24.156 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [19941] milliseconds
+20-Sep-2023 10:44:51.223 INFORMAÇÕES [http-nio-8001-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war]
+20-Sep-2023 10:44:54.372 INFORMAÇÕES [http-nio-8001-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 10:44:59.864 INFORMAÇÕES [http-nio-8001-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war] has finished in [8.640] ms
+20-Sep-2023 10:45:20.593 INFORMAÇÕES [http-nio-8001-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tasks]] after start() had already been called. The second call will be ignored.
+20-Sep-2023 14:56:03.763 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+20-Sep-2023 14:56:03.768 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+20-Sep-2023 14:56:03.769 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+20-Sep-2023 14:56:03.769 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Sep-2023 14:56:03.769 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 14:56:03.770 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 14:56:03.770 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\WINDOWS HOME\.jdks\corretto-11.0.19
+20-Sep-2023 14:56:03.770 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-LTS
+20-Sep-2023 14:56:03.770 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+20-Sep-2023 14:56:03.771 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 14:56:03.771 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 14:56:03.858 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 14:56:03.859 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 14:56:03.859 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 14:56:03.860 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 14:56:03.860 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 14:56:03.861 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\conf\logging.properties
+20-Sep-2023 14:56:03.861 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 14:56:03.862 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 14:56:03.862 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 14:56:03.863 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 14:56:03.863 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 14:56:03.863 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 14:56:03.864 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\temp
+20-Sep-2023 14:56:03.922 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+20-Sep-2023 14:56:03.922 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 14:56:03.923 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 14:56:03.945 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+20-Sep-2023 14:56:04.491 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 14:56:04.571 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1204] milliseconds
+20-Sep-2023 14:56:04.757 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 14:56:04.758 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+20-Sep-2023 14:56:04.808 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war]
+20-Sep-2023 14:56:13.084 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 14:56:30.600 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [686] milliseconds.
+20-Sep-2023 14:56:30.641 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks-backend.war] has finished in [25.833] ms
+20-Sep-2023 14:56:30.664 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war]
+20-Sep-2023 14:56:33.893 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 14:56:38.201 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war] has finished in [7.537] ms
+20-Sep-2023 14:56:38.203 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs]
+20-Sep-2023 14:56:38.289 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs] has finished in [86] ms
+20-Sep-2023 14:56:38.290 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples]
+20-Sep-2023 14:56:40.051 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples] has finished in [1.762] ms
+20-Sep-2023 14:56:40.052 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager]
+20-Sep-2023 14:56:40.143 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager] has finished in [91] ms
+20-Sep-2023 14:56:40.144 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager]
+20-Sep-2023 14:56:40.231 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager] has finished in [86] ms
+20-Sep-2023 14:56:40.232 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT]
+20-Sep-2023 14:56:40.296 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT] has finished in [65] ms
+20-Sep-2023 14:56:40.303 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 14:56:40.345 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [35773] milliseconds
+20-Sep-2023 14:56:46.328 ADVERTÊNCIA [http-nio-8001-exec-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Sep-2023 14:56:46.954 INFORMAÇÕES [http-nio-8001-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks-backend]
+20-Sep-2023 15:04:44.784 INFORMAÇÕES [http-nio-8001-exec-12] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\target#tasks-backend.war]
+20-Sep-2023 15:04:50.612 INFORMAÇÕES [http-nio-8001-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 15:05:00.289 INFORMAÇÕES [http-nio-8001-exec-12] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\target#tasks-backend.war] has finished in [15.505] ms
+20-Sep-2023 15:06:22.089 ADVERTÊNCIA [http-nio-8001-exec-19] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [target#tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Sep-2023 15:06:22.801 INFORMAÇÕES [http-nio-8001-exec-19] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/target/tasks-backend]
+20-Sep-2023 15:06:23.659 INFORMAÇÕES [http-nio-8001-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\target#tasks-backend.war]
+20-Sep-2023 15:06:36.741 INFORMAÇÕES [http-nio-8001-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 15:06:54.714 INFORMAÇÕES [http-nio-8001-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\target#tasks-backend.war] has finished in [31.056] ms
+20-Sep-2023 15:12:40.286 INFORMAÇÕES [http-nio-8001-exec-21] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks]
+20-Sep-2023 15:15:15.325 INFORMAÇÕES [http-nio-8001-exec-32] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war]
+20-Sep-2023 15:15:24.687 INFORMAÇÕES [http-nio-8001-exec-32] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 15:15:33.753 INFORMAÇÕES [http-nio-8001-exec-32] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war] has finished in [18.427] ms
+20-Sep-2023 15:17:20.998 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+20-Sep-2023 15:17:21.013 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+20-Sep-2023 15:17:21.016 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+20-Sep-2023 15:17:21.017 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Sep-2023 15:17:21.018 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 15:17:21.018 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 15:17:21.018 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\WINDOWS HOME\.jdks\corretto-11.0.19
+20-Sep-2023 15:17:21.019 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-LTS
+20-Sep-2023 15:17:21.019 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+20-Sep-2023 15:17:21.020 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 15:17:21.021 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 15:17:21.079 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 15:17:21.079 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 15:17:21.080 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 15:17:21.082 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 15:17:21.084 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 15:17:21.084 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\conf\logging.properties
+20-Sep-2023 15:17:21.086 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 15:17:21.088 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 15:17:21.091 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 15:17:21.093 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 15:17:21.095 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 15:17:21.096 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 15:17:21.097 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\temp
+20-Sep-2023 15:17:21.108 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+20-Sep-2023 15:17:21.109 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 15:17:21.111 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 15:17:21.124 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+20-Sep-2023 15:17:22.464 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 15:17:22.582 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [2491] milliseconds
+20-Sep-2023 15:17:22.957 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 15:17:22.959 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+20-Sep-2023 15:17:23.017 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\target#tasks-backend.war]
+20-Sep-2023 15:17:32.173 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 15:17:56.176 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1.063] milliseconds.
+20-Sep-2023 15:17:56.211 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\target#tasks-backend.war] has finished in [33.193] ms
+20-Sep-2023 15:17:56.212 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war]
+20-Sep-2023 15:17:59.321 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 15:18:07.515 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war] has finished in [11.302] ms
+20-Sep-2023 15:18:07.528 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs]
+20-Sep-2023 15:18:07.602 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs] has finished in [73] ms
+20-Sep-2023 15:18:07.603 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples]
+20-Sep-2023 15:18:08.353 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples] has finished in [749] ms
+20-Sep-2023 15:18:08.353 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager]
+20-Sep-2023 15:18:08.469 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager] has finished in [115] ms
+20-Sep-2023 15:18:08.469 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager]
+20-Sep-2023 15:18:08.549 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager] has finished in [79] ms
+20-Sep-2023 15:18:08.551 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT]
+20-Sep-2023 15:18:08.648 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT] has finished in [98] ms
+20-Sep-2023 15:18:08.678 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 15:18:08.737 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [46154] milliseconds
+20-Sep-2023 15:21:51.289 INFORMAÇÕES [http-nio-8001-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks]
+20-Sep-2023 15:21:51.516 INFORMAÇÕES [http-nio-8001-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war]
+20-Sep-2023 15:21:54.997 INFORMAÇÕES [http-nio-8001-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 15:21:59.751 INFORMAÇÕES [http-nio-8001-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war] has finished in [8.236] ms
+20-Sep-2023 15:22:46.072 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+20-Sep-2023 15:22:46.078 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+20-Sep-2023 15:22:46.079 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+20-Sep-2023 15:22:46.079 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Sep-2023 15:22:46.079 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 15:22:46.079 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 15:22:46.080 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\WINDOWS HOME\.jdks\corretto-11.0.19
+20-Sep-2023 15:22:46.080 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-LTS
+20-Sep-2023 15:22:46.080 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+20-Sep-2023 15:22:46.080 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 15:22:46.080 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 15:22:46.101 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 15:22:46.102 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 15:22:46.103 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 15:22:46.104 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 15:22:46.105 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 15:22:46.105 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\conf\logging.properties
+20-Sep-2023 15:22:46.107 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 15:22:46.110 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 15:22:46.111 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 15:22:46.111 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 15:22:46.112 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 15:22:46.112 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 15:22:46.113 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\temp
+20-Sep-2023 15:22:46.118 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+20-Sep-2023 15:22:46.118 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 15:22:46.119 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 15:22:46.125 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+20-Sep-2023 15:22:46.658 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 15:22:46.688 GRAVE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8001]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1040)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:459)
+		at java.base/sun.nio.ch.Net.bind(Net.java:448)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1324)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1337)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:652)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+20-Sep-2023 15:22:46.692 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [971] milliseconds
+20-Sep-2023 15:22:46.871 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 15:22:46.872 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+20-Sep-2023 15:22:46.917 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\target#tasks-backend.war]
+20-Sep-2023 15:22:52.835 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 15:23:09.031 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [520] milliseconds.
+20-Sep-2023 15:23:09.064 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\target#tasks-backend.war] has finished in [22.146] ms
+20-Sep-2023 15:23:09.066 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war]
+20-Sep-2023 15:23:13.038 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 15:23:22.014 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war] has finished in [12.947] ms
+20-Sep-2023 15:23:22.016 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs]
+20-Sep-2023 15:23:22.084 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs] has finished in [67] ms
+20-Sep-2023 15:23:22.085 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples]
+20-Sep-2023 15:23:22.897 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples] has finished in [813] ms
+20-Sep-2023 15:23:22.898 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager]
+20-Sep-2023 15:23:22.971 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager] has finished in [73] ms
+20-Sep-2023 15:23:22.972 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager]
+20-Sep-2023 15:23:23.048 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager] has finished in [75] ms
+20-Sep-2023 15:23:23.048 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT]
+20-Sep-2023 15:23:23.101 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT] has finished in [52] ms
+20-Sep-2023 15:23:23.115 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [36418] milliseconds
+20-Sep-2023 15:23:23.118 GRAVE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: NET_Bind
+		at java.base/java.net.PlainSocketImpl.bind0(Native Method)
+		at java.base/java.net.PlainSocketImpl.socketBind(PlainSocketImpl.java:132)
+		at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:582)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+20-Sep-2023 15:23:23.119 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 15:23:23.120 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Sep-2023 15:23:23.238 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [target#tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Sep-2023 15:23:23.336 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 15:23:23.342 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 15:23:38.923 INFORMAÇÕES [http-nio-8001-exec-17] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks]
+20-Sep-2023 15:24:07.981 INFORMAÇÕES [http-nio-8001-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war]
+20-Sep-2023 15:24:11.441 INFORMAÇÕES [http-nio-8001-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 15:24:16.216 INFORMAÇÕES [http-nio-8001-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war] has finished in [8.233] ms
+20-Sep-2023 15:24:36.085 INFORMAÇÕES [http-nio-8001-exec-16] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks]
+20-Sep-2023 15:24:52.572 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+20-Sep-2023 15:24:52.579 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+20-Sep-2023 15:24:52.579 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+20-Sep-2023 15:24:52.580 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Sep-2023 15:24:52.580 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 15:24:52.580 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 15:24:52.580 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\WINDOWS HOME\.jdks\corretto-11.0.19
+20-Sep-2023 15:24:52.581 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-LTS
+20-Sep-2023 15:24:52.581 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+20-Sep-2023 15:24:52.581 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 15:24:52.581 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 15:24:52.601 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 15:24:52.601 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 15:24:52.602 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 15:24:52.602 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 15:24:52.603 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 15:24:52.604 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\conf\logging.properties
+20-Sep-2023 15:24:52.604 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 15:24:52.606 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 15:24:52.606 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 15:24:52.607 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 15:24:52.607 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 15:24:52.608 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78
+20-Sep-2023 15:24:52.609 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\temp
+20-Sep-2023 15:24:52.615 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+20-Sep-2023 15:24:52.618 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 15:24:52.619 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 15:24:52.627 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+20-Sep-2023 15:24:53.236 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 15:24:53.330 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1205] milliseconds
+20-Sep-2023 15:24:53.484 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 15:24:53.485 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+20-Sep-2023 15:24:53.521 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\target#tasks-backend.war]
+20-Sep-2023 15:24:59.183 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 15:25:15.220 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [527] milliseconds.
+20-Sep-2023 15:25:15.268 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\target#tasks-backend.war] has finished in [21.747] ms
+20-Sep-2023 15:25:15.270 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs]
+20-Sep-2023 15:25:15.330 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\docs] has finished in [60] ms
+20-Sep-2023 15:25:15.331 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples]
+20-Sep-2023 15:25:15.745 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\examples] has finished in [413] ms
+20-Sep-2023 15:25:15.745 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager]
+20-Sep-2023 15:25:15.792 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\host-manager] has finished in [46] ms
+20-Sep-2023 15:25:15.793 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager]
+20-Sep-2023 15:25:15.839 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\manager] has finished in [46] ms
+20-Sep-2023 15:25:15.839 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT]
+20-Sep-2023 15:25:15.878 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\ROOT] has finished in [39] ms
+20-Sep-2023 15:25:15.884 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+20-Sep-2023 15:25:15.916 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [22584] milliseconds
+20-Sep-2023 15:25:53.807 INFORMAÇÕES [http-nio-8001-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war]
+20-Sep-2023 15:25:57.530 INFORMAÇÕES [http-nio-8001-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 15:26:04.896 INFORMAÇÕES [http-nio-8001-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war] has finished in [11.088] ms
+20-Sep-2023 15:26:14.136 INFORMAÇÕES [http-nio-8001-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tasks]] after start() had already been called. The second call will be ignored.
+20-Sep-2023 15:26:26.885 INFORMAÇÕES [http-nio-8001-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks]
+20-Sep-2023 15:26:27.269 INFORMAÇÕES [http-nio-8001-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war]
+20-Sep-2023 15:26:34.843 INFORMAÇÕES [http-nio-8001-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 15:26:41.115 INFORMAÇÕES [http-nio-8001-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\WINDOWS HOME\devops-jenkins\apache-tomcat-9.0.78\webapps\tasks.war] has finished in [13.846] ms
+20-Sep-2023 15:26:49.568 INFORMAÇÕES [http-nio-8001-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tasks]] after start() had already been called. The second call will be ignored.
